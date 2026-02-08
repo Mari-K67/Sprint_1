@@ -8,6 +8,9 @@ world_champions = {
 
 world_champions[2022]= 'Аргентина'
 
+for key, value in world_champions.items():
+    print(f'{key} - {value}', sep= '\n') 
+
 country = 'Италия'
 
 def country_chempion(country):
@@ -15,3 +18,5 @@ def country_chempion(country):
         print(f'{country} cтановилась чемпионом мира по футболу в 21 веке!')
     else:
         print(f'{country} не выигрывала чемпионат мира по футболу в 21 веке.')
+
+country_chempion(country)

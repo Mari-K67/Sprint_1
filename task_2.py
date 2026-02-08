@@ -1,7 +1,8 @@
 class Tester:
 
-    def __init__(self, name):
+    def __init__(self, name, deadline=None):
         self.name = name
+        self.deadline = deadline
 
     def work_hard(self, deadline=True):
         self.deadline = deadline
