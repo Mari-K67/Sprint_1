@@ -31,7 +31,7 @@ class Tester:
 tester_1 = Tester(name='tester_1')
 tester_1.work_hard(deadline=False)  # 'tester_1 Можно отдыхать'
 tester_2 = Tester(name='tester_2')
-tester_2.work_hard(deadline=True)   # 'tester_2 Что ж, ещё часок поработаю!' 
+tester_2.work_hard(deadline=True)   # 'tester_2 Что ж, ещё часок поработаю!'
 
 TASK-3:
 Словарь содержит информацию о чемпионатах по футболу в 21 веке: год. Например, 1988; страна, которая выиграла чемпионат мира по футболу. Например, Англия.
