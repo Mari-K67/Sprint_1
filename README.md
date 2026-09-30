@@ -15,6 +15,7 @@ Learning Python, solving basic tasks
 при вызове метода work_hard у экземпляра класса tester_1 печаталось 'tester_1 Можно отдыхать';
 при вызове метода work_hard у экземпляра класса tester_2 печаталось 'tester_2 Что ж, ещё часок поработаю!'.
 Вызовы менять не нужно.
+```
 class Tester:
     def __init__(name):
         name = name
@@ -30,6 +31,7 @@ tester_1 = Tester(name='tester_1')
 tester_1.work_hard(deadline=False)  # 'tester_1 Можно отдыхать'
 tester_2 = Tester(name='tester_2')
 tester_2.work_hard(deadline=True)   # 'tester_2 Что ж, ещё часок поработаю!' 
+```
 
 ## task_3
 Словарь содержит информацию о чемпионатах по футболу в 21 веке:
